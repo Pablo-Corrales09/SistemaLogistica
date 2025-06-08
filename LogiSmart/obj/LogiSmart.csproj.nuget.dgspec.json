@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\Academico\\SistemaGestionLogistica\\LogiSmart\\LogiSmart.csproj": {}
+    "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programación III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\LogiSmart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\Academico\\SistemaGestionLogistica\\LogiSmart\\LogiSmart.csproj": {
+    "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programación III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\LogiSmart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\Academico\\SistemaGestionLogistica\\LogiSmart\\LogiSmart.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programación III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\LogiSmart.csproj",
         "projectName": "LogiSmart",
-        "projectPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\Academico\\SistemaGestionLogistica\\LogiSmart\\LogiSmart.csproj",
+        "projectPath": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programación III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\LogiSmart.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\Academico\\SistemaGestionLogistica\\LogiSmart\\obj\\",
+        "outputPath": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programación III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

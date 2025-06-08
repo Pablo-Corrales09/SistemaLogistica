@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3111C6B4-263C-4CBE-BDEE-5E9C7DC190D2}|LogiSmart\\LogiSmart.csproj|c:\\users\\pc\\onedrive\\documentos\\universidad uam\\iv cuatrimestre\\programaci\u00F3n iii\\primer proyecto programado\\sistemagestionlogistica\\logismart\\models\\vehiculocamion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3111C6B4-263C-4CBE-BDEE-5E9C7DC190D2}|LogiSmart\\LogiSmart.csproj|solutionrelative:logismart\\models\\vehiculocamion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3111C6B4-263C-4CBE-BDEE-5E9C7DC190D2}|LogiSmart\\LogiSmart.csproj|c:\\users\\pc\\onedrive\\documentos\\universidad uam\\iv cuatrimestre\\programaci\u00F3n iii\\primer proyecto programado\\sistemagestionlogistica\\logismart\\models\\vehiculomoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3111C6B4-263C-4CBE-BDEE-5E9C7DC190D2}|LogiSmart\\LogiSmart.csproj|solutionrelative:logismart\\models\\vehiculomoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3111C6B4-263C-4CBE-BDEE-5E9C7DC190D2}|LogiSmart\\LogiSmart.csproj|c:\\users\\pc\\onedrive\\documentos\\universidad uam\\iv cuatrimestre\\programaci\u00F3n iii\\primer proyecto programado\\sistemagestionlogistica\\logismart\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3111C6B4-263C-4CBE-BDEE-5E9C7DC190D2}|LogiSmart\\LogiSmart.csproj|solutionrelative:logismart\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3111C6B4-263C-4CBE-BDEE-5E9C7DC190D2}|LogiSmart\\LogiSmart.csproj|c:\\users\\pc\\onedrive\\documentos\\universidad uam\\iv cuatrimestre\\programaci\u00F3n iii\\primer proyecto programado\\sistemagestionlogistica\\logismart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3111C6B4-263C-4CBE-BDEE-5E9C7DC190D2}|LogiSmart\\LogiSmart.csproj|solutionrelative:logismart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehiculoCamion.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\Models\\VehiculoCamion.cs",
+              "RelativeDocumentMoniker": "LogiSmart\\Models\\VehiculoCamion.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\Models\\VehiculoCamion.cs",
+              "RelativeToolTip": "LogiSmart\\Models\\VehiculoCamion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T03:50:37.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehiculoMoto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\Models\\VehiculoMoto.cs",
+              "RelativeDocumentMoniker": "LogiSmart\\Models\\VehiculoMoto.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\Models\\VehiculoMoto.cs",
+              "RelativeToolTip": "LogiSmart\\Models\\VehiculoMoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T03:45:42.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\Models\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "LogiSmart\\Models\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\Models\\Vehiculo.cs",
+              "RelativeToolTip": "LogiSmart\\Models\\Vehiculo.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T03:45:19.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\Program.cs",
+              "RelativeDocumentMoniker": "LogiSmart\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\Universidad UAM\\IV Cuatrimestre\\Programaci\u00F3n III\\Primer Proyecto Programado\\SistemaGestionLogistica\\LogiSmart\\Program.cs",
+              "RelativeToolTip": "LogiSmart\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T03:44:52.782Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

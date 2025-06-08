@@ -13,3 +13,17 @@ C:\Users\PC\OneDrive\Documentos\GitHub\Academico\SistemaGestionLogistica\LogiSma
 C:\Users\PC\OneDrive\Documentos\GitHub\Academico\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.pdb
 C:\Users\PC\OneDrive\Documentos\GitHub\Academico\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.genruntimeconfig.cache
 C:\Users\PC\OneDrive\Documentos\GitHub\Academico\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\ref\LogiSmart.dll
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\bin\Debug\net8.0\LogiSmart.exe
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\bin\Debug\net8.0\LogiSmart.deps.json
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\bin\Debug\net8.0\LogiSmart.runtimeconfig.json
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\bin\Debug\net8.0\LogiSmart.dll
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\bin\Debug\net8.0\LogiSmart.pdb
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.dll
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\refint\LogiSmart.dll
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.pdb
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.genruntimeconfig.cache
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\ref\LogiSmart.dll

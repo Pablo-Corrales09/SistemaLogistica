@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogiSmart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4c19e6d4f623c48747d7a8f7334d54cf3baac84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+211cecdfb199cefdf890eb082b39664221f8a468")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogiSmart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogiSmart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
