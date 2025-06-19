@@ -1,25 +1,28 @@
-﻿using System;
+﻿using LogiSmart.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Transactions;
 
-namespace LogiSmart.Models
+namespace LogiSmart.Models.Transport
 {
     public class VehiculoMoto : Vehiculo
     {
         private const double LADO_CAJON_MOTO = 30; //Lado en cm. La moto tiene un cajón cúbico.
         private const double PESO_MAXIMO_DE_CARGA = 40; // Peso en Kgs
-        private const string LICENCIA_MOTO = "A2";
+        private const TipoLicencia LICENCIA_MOTO = TipoLicencia.Moto;
         private const int TIEMPO_MANTENIMIENTO_MOTO = 30; //30s
 
 
-        public VehiculoMoto(string placa, double km) : base(placa, km)
+        public VehiculoMoto(string placa, double km) : base()
         {
             Placa = placa;
             KilometrajeActual = km;
-            TipoVehiculo = "Motocicleta";
+            TipoVehiculo = TipoVehiculo.Moto;
             TipoLicenciaAdmitida = LICENCIA_MOTO;
             EstadoVehiculo = EstadoVehiculo;
             DescripcionVehiculo = DescripVehiculo();
@@ -64,6 +67,26 @@ namespace LogiSmart.Models
             KmMantenimiento = 0;
         }
 
-
+        public override Vehiculo CrearVehiculo()
+        {
+            Console.WriteLine("\nIngrese el número de placa de la motocicleta: ");
+            string placa = Console.ReadLine();
+            if (string.IsNullOrEmpty(placa) || Regex.IsMatch(placa,@"^[A-Z]{3}-\d{4}$")) {
+                Console.WriteLine("\nPlaca inválida. Debe seguir el formato AAA-0000.");
+                Thread.Sleep(5000);
+                Console.Clear();
+                return CrearVehiculo(); // Llamada recursiva para volver a solicitar la placa
+            }
+            Console.WriteLine("\nIngrese el kilometraje actual de la motocicleta: ");
+            double km = Convert.ToDouble(Console.ReadLine());
+            if (km < 0)
+            {
+                Console.WriteLine("\nKilometraje inválido. Debe ser un número positivo.");
+                Thread.Sleep(5000);
+                Console.Clear();
+                return CrearVehiculo(); // Llamada recursiva para volver a solicitar el kilometraje
+            }
+            return new VehiculoMoto(placa, km);
+        }
     }//Fin clase
 } //Fin namespace LogiSmart.Models
