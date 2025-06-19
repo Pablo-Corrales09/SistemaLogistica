@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogiSmart.Models
+namespace LogiSmart.Models.Transport
 {
     abstract public class Vehiculo
     {
@@ -13,10 +13,10 @@ namespace LogiSmart.Models
         public double VolMaxDeCarga { get; set; }
         public double KilometrajeActual { get; set; }
         public double KmMantenimiento { get; set; }
-        public string TipoVehiculo { get; set; }
+        public TipoVehiculo TipoVehiculo { get; set; }
         public EstadoVehiculo EstadoVehiculo { get; set; }
         public string DescripcionVehiculo { get; set; }
-        public string TipoLicenciaAdmitida { get; set; }
+        public TipoLicencia TipoLicenciaAdmitida { get; set; }
         public double VolDeCargaOcupado { get; set; }
         public int AltoMaxPaquete { get; set; }  // Para usarse como referencia para cm
         public int AnchoMaxPaquete { get; set; } // Para usarse como referencia para cm
@@ -25,14 +25,14 @@ namespace LogiSmart.Models
        public double PesoCargaMax { get; set; }
 
         private const double KM_PARA_MANTENIMIENTO = 10000;
-        public Vehiculo(string placa, double km)
+        public Vehiculo()
         {
-            Placa = placa;
-            KilometrajeActual = km;
+            Placa = "";
+            KilometrajeActual = 0;
             KmMantenimiento = 0;
-            TipoVehiculo = "";
-            TipoLicenciaAdmitida = "";
-            EstadoVehiculo = EstadoVehiculo.Pendiente;
+            TipoVehiculo = (TipoVehiculo)0;
+            TipoLicenciaAdmitida = (TipoLicencia)0;
+            EstadoVehiculo = (EstadoVehiculo)0;
             DescripcionVehiculo = "";
             CentroDistribucion = "";
             AltoMaxPaquete = 0; //cm
@@ -48,13 +48,13 @@ namespace LogiSmart.Models
 
         public bool ValidarDisponibilidad()
         {
-            if (EstadoVehiculo == Enums.EstadoVehiculo.Pendiente)
+            if (EstadoVehiculo == EstadoVehiculo.Pendiente)
             {
                 Console.WriteLine("\nPendiente: El vehículo no tiene centro de distribución asignado.");
                 return false;
             }
 
-            if (EstadoVehiculo != Enums.EstadoVehiculo.Disponible)
+            if (EstadoVehiculo != EstadoVehiculo.Disponible)
             {
                 Console.WriteLine($"\nVehiculo no disponible: {EstadoVehiculo}");
                 return false;
@@ -62,6 +62,8 @@ namespace LogiSmart.Models
 
             return true;
         }
+
+        public abstract Vehiculo CrearVehiculo();
 
         public abstract double VolDeCargaMaxima();
 
@@ -86,7 +88,7 @@ namespace LogiSmart.Models
                 }
                 if (paquete.Peso + PesoPaqEnVehi > PesoCargaMax)
                 {
-                    Console.WriteLine("Error: El peso del paquete supera el peso de carga máximo soportado por el vehículo.");
+                    Console.WriteLine("Error: El volumen del paquete supera el peso de carga máximo soportado por el vehículo.");
                     return false;
 
                 }
@@ -137,13 +139,13 @@ namespace LogiSmart.Models
                 return false;
             }
 
-            if (!ValidarTamanoPaquete(paquete) || !ValidarLicencia(conductor))
+            if (!ValidarLicencia(conductor))
             {
                 return false;
             }
 
             CargarPaquete(paquete);//Los métodos de validación ya manejan los mensajes con los errores.                    
-            EstadoVehiculo = Enums.EstadoVehiculo.EnRuta;
+            EstadoVehiculo = EstadoVehiculo.EnRuta;
             SumarKilometraje(ruta);
             Console.WriteLine("\nRuta asignada exitosamente");
             return true;
@@ -160,7 +162,7 @@ namespace LogiSmart.Models
                 else
                 {
                     Console.WriteLine("\n¡Viaje completado con éxito!");
-                    EstadoVehiculo = Enums.EstadoVehiculo.Disponible;
+                    EstadoVehiculo = EstadoVehiculo.Disponible;
                 }
             }else
             {
@@ -173,21 +175,21 @@ namespace LogiSmart.Models
 
         public  bool ValidarDistanciaMantenimiento(Ruta ruta)
         {
-            if ((KmMantenimiento + ruta.DistanciaRuta) <= KM_PARA_MANTENIMIENTO)
+            if (KmMantenimiento + ruta.DistanciaRuta <= KM_PARA_MANTENIMIENTO)
             {
                 return true;
 
             }
-            EstadoVehiculo = Enums.EstadoVehiculo.RequiereMantenimiento;
+            EstadoVehiculo = EstadoVehiculo.RequiereMantenimiento;
             Console.WriteLine("\nLa ruta supera el kilometraje máximo antes del mantenimiento.");
             return false;
         }
 
         public bool PonerEnMantenimiento()
         {
-            if (EstadoVehiculo != Enums.EstadoVehiculo.Mantenimiento)
+            if (EstadoVehiculo != EstadoVehiculo.Mantenimiento)
             {
-                EstadoVehiculo = Enums.EstadoVehiculo.Mantenimiento;
+                EstadoVehiculo = EstadoVehiculo.Mantenimiento;
                 realizarMantenimiento();
                 return true;
             }
@@ -205,8 +207,6 @@ namespace LogiSmart.Models
         }
 
         public abstract void realizarMantenimiento();
-
-
 
 
 

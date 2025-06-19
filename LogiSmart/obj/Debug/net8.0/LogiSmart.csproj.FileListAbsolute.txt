@@ -27,3 +27,4 @@ C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación II
 C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.pdb
 C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.genruntimeconfig.cache
 C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\ref\LogiSmart.dll
+C:\Users\PC\OneDrive\Documentos\Universidad UAM\IV Cuatrimestre\Programación III\Primer Proyecto Programado\SistemaGestionLogistica\LogiSmart\obj\Debug\net8.0\LogiSmart.sourcelink.json
